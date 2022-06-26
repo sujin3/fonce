@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 18px/1.5 "noto-sans";
+}
+ul {
+    list-style: none;
+}
+a, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+.d-none {
+    display: none;
+}
+
+
+.header-wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+.slider {
+    z-index: 0;
+}
+.slider img{
+    width: 100%;
+    height: 700px;
+}
+
+.bx-wrapper {
+    max-width: 100%;
+    height: 100%;
+    box-shadow: none;
+    border: none;
+    background: none;
+    position: relative;
+    padding: 0;
+    touch-action: pan-y;
+}
+.bx-controls-direction {
+    display: none;
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+}
+.bx-pager {
+    text-align: center;
+    font-weight: bold;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    border: 1px solid #fff;
+    background: none;
+    color: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.hightlight {
+    background: rgba(15, 15, 15, 0.5);
+    transition: all ease-in-out .3s;
+    z-index: 100;
+    width: 100%;
+}
+.hightlight .lnb {
+    background: rgba(15, 15, 15, 0.5);
+}
+
+.logo img {
+    width: 200px;
+    height: 80px;
+}
+#gnb {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    color: white;
+    margin-left: 100px;
+}
+#gnb > li { 
+    width: 150px;
+    margin: 0 auto;
+    display: inline-block; 
+    text-align: center;
+}
+#gnb > li:hover {
+    border-bottom: solid 2px white;    
+}
+
+
+
+
+  
+   
+.lnb {
+    display: none;
+}
+section h2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.back-wrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+}
+.back {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: #FBF0F4;
+    z-index: 1;
+}
+.back-wrap > img {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 1000px;
+    height: 600px;
+    z-index: 2;
+}
+.bestwine {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    z-index: 3;
+}
+.bestwine img {
+    width: 150px;
+    height: 550px;
+}
+.bestwine-center > img{
+    width: 180px;
+    height: 600px;
+}
+.bestwine a:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
+
+.custom-btn {
+    position: absolute;
+    top: 80%;
+    left: 46.5%;
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: 'noto sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+  
+.btn-14 {
+    background: #000;
+    border: none;
+    z-index: 1;
+}
+.btn-14:after {
+position: absolute;
+content: "";
+width: 100%;
+height: 0;
+top: 0;
+left: 0;
+z-index: -1;
+border-radius: 5px;
+background-color: #49031e;
+background-image: linear-gradient(360deg, #580b0b 0%, #810a14 74%);
+transition: all 0.3s ease;
+}
+.btn-14:hover {
+color: #fff;
+}
+.btn-14:hover:after {
+top: auto;
+bottom: 0;
+height: 100%;
+}
+.btn-14:active {
+top: 2px;
+}
+
+
+.banner {
+    max-width: 1200px;
+    margin: 100px auto;
+    position: relative;
+    height: 480px;
+}
+.banner img {
+    z-index: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.monthly-button {
+    position: absolute;
+    top: 75%;
+    left: 42%;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
+
+.wineslide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wineslide h3 {
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0;
+}
+.slider2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider2 img {
+    width: 250px;
+    height: 380px;
+}
+
+
+footer {
+    background: #f2b2a23d;
+
+}
+.footer-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px ;
+}
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    font-size: 14px;
+}
+.footer-left img {
+    width: 180px;
+    height: 220px;
+}
+.info {
+    line-height: 30px;
+}
+.copy {
+    border-top: 1px solid black;
+    padding: 10px 0;
+}
+.sns-wrap {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+.sns-wrap img {
+    width: 50px;
+    height: 50px;
+}
