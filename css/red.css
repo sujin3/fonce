@@ -5,3 +5,145 @@
 .red-hero img {
     width: 100%;
 }
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.monthly-special-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+}
+.monthly-special {
+    position: relative;
+}
+
+.special-title {
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 18%;
+    z-index: 10;
+}
+.summer-wrap > div {
+    width: 400px;
+    height: 500px;
+    background: #F2B2A2;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.summer-wrap > img {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.summer-text {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+}
+.summer-title {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 200px;
+    height: 50px;
+}
+.summer-text img {
+    width: 300px;
+    height: 100px;
+    padding-bottom: 50px;
+}
+.summer-text > p {
+    font-size: 18px;
+    position: absolute;
+    top: 80%;
+    left: 62%;
+    line-height: 40px;
+}
+.month-red-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.month-red-wrap h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#month-red {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.red1 {
+    text-align: center;
+    width: 250px;
+    height: 650px;
+    border: 3px solid #16B1AC;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.301);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.red2 {
+    text-align: center;
+    width: 250px;
+    height: 650px;
+    border: 3px solid #16B1AC;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.301);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.red3 {
+    text-align: center;
+    width: 250px;
+    height: 650px;
+    border: 3px solid #16B1AC;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.301);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.red1 > a > img {
+    width: 150px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.red2 > a > img {
+    width: 120px;
+    height: 400px;
+    margin-bottom: 30px;
+
+}
+.red3 > a > img {
+    width: 150px;
+    height: 400px;
+    margin-bottom: 30px;
+
+}
+.red1 > p {
+    margin: 2px 0;
+}
+.red-name {
+    height: 80px;
+}
+#month-red > li:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
+.month-red-wrap > button {
+    text-align: center;
+    margin: 100px 0;
+}
