@@ -84,16 +84,15 @@ section {
 #month-red {
     display: flex;
     justify-content: space-around;
+    align-items:baseline;
     max-width: 1200px;
     margin: 0 auto;
 }
 .red1 {
     text-align: center;
     width: 250px;
+    margin: 0 auto;
     height: 650px;
-    border: 3px solid #16B1AC;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.301);
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -101,10 +100,8 @@ section {
 .red2 {
     text-align: center;
     width: 250px;
+    margin:  0 auto;
     height: 650px;
-    border: 3px solid #16B1AC;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.301);
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -112,14 +109,13 @@ section {
 .red3 {
     text-align: center;
     width: 250px;
+    margin: 0 auto;
     height: 650px;
-    border: 3px solid #16B1AC;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.301);
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     padding: 30px;
 }
+
 .red1 > a > img {
     width: 150px;
     height: 400px;
@@ -137,13 +133,30 @@ section {
     margin-bottom: 30px;
 
 }
-.red1 > p {
-    margin: 2px 0;
+.red1 > .red-name {
+    text-align: center;
+    line-height: 70px;
+}
+.p-text {
+    padding: 10px 0;
 }
 .red-name {
-    height: 80px;
+    box-sizing: border-box;
+    height: 70px;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 3px solid #16B1AC;
 }
-#month-red > li:hover {
+.red1 > a:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
+.red2 > a:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
+.red3 > a:hover {
     transform: scale(1.1);
     transition: all ease-in-out .3s;
 }
